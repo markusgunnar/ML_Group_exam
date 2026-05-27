@@ -14,7 +14,6 @@ from sklearn.metrics import (classification_report,
                              precision_score,
                              recall_score,
                              confusion_matrix)
-from xgboost import XGBClassifier
 from sklearn.dummy import DummyClassifier
 
 r_state = 42
@@ -106,12 +105,3 @@ def extract_feature_coeff(_pipeline):
     )
 
     return importance
-
-    # display(
-    #     importance
-    #     .sort_values(
-    #         "Absolute",
-    #         ascending=False
-    #     )
-    #     .head(10)
-    # )
