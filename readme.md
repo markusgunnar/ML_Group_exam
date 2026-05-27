@@ -17,6 +17,7 @@ data/
 
 functions.py
 main.ipynb
+Project_Summary.pdf
 README.md
 ```
 
